@@ -10,7 +10,6 @@ import org.springframework.http.HttpStatus;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import com.fasterxml.jackson.annotation.JsonIncludeProperties;
 
 import lombok.Data;
 import lombok.experimental.SuperBuilder;

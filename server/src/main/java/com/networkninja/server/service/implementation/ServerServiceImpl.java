@@ -5,7 +5,6 @@ package com.networkninja.server.service.implementation;
 
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.Collection;
 import java.util.Random;
 
@@ -14,7 +13,6 @@ import javax.transaction.Transactional;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import org.springframework.web.util.UriComponentsBuilder;
 
 import com.networkninja.server.enumeration.Status;
 import com.networkninja.server.model.Server;
@@ -23,7 +21,6 @@ import com.networkninja.server.service.ServerService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import net.bytebuddy.description.ModifierReviewable.OfAbstraction;
 
 /**
  * @author Akhila Johnson C
