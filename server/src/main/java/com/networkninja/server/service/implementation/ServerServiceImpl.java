@@ -82,7 +82,8 @@ public class ServerServiceImpl implements ServerService {
 	 * @return
 	 */
 	private String setServerImageUrl() {
-		String[] imageNames = { "serverimg1.png", "serverimg2.png", "serverimg3.png", "serverimg4.png" };
+		String[] imageNames = { "server1.png", "server2.png", "server3.png", "server4.png" , "server5.png",
+				"server6.png", "server7.png", "server8.png", "server9.png" , "server10.png"};
 		return ServletUriComponentsBuilder.fromCurrentContextPath()
 				.path("/server/image/" + imageNames[new Random().nextInt(4)]).toUriString();
 	}
